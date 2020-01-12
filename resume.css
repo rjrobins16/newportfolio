@@ -1,0 +1,117 @@
+html,body{
+    background: #1d1d1d;
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+}
+
+.sidebar{
+    line-height: 8pt;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f4cbc6;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.65s;
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 0.7;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color: #ed95ae;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #1d1d1d;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #1d1d1d;
+    color: #cc978e;
+}
+
+#sidebars {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+
+}
+#dlbtn{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #cc978e;
+    color: #050505;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+#dlbtn:hover{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ed95ae;
+    color: #1d1d1d;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 740px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 40px;
+    }
+}
+
+.resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+#title{
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40pt;
+    color: white;
+}
+
+.lol{
+    font-size: 30px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-bottom: 2%;
+}

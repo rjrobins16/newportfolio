@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <br/>
+    <a href="index.html"> Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html"> Resume</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="skills.html"> Skillset</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<div id="sidebars">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+
+<section id="leftside"> <div id="title"> Portfolio</div>
+    <p> Click the photos to open small programs and websites created by me.</p>
+</section>
+
+<section id="rightside">
+    <div id="content">
+        <a href="https://github.com/cs-fullstack-2019-fall/project2-django-wikipedia-rjrobins16" target="_blank">
+            <div class="container">
+                <img class="image"  id="img4" src="Screenshot%20from%202020-01-12%2015-44-18.png">
+                <div class="overlay"> <div class="text"> Used Django/Python/HTML/CSS to create a blog site about female entertainers. Users
+                    can search the website, create an account, add an entry of their own and add related articles to their own entries.</div>
+                </div>
+            </div>
+        </a>
+        <br/>
+        <a href="https://github.com/cs-fullstack-2019-fall/project2-django-wikipedia-rjrobins16" target="_blank">
+            <div class="container">
+                <img class="image"  id="img5" src="Screenshot%20from%202020-01-12%2016-04-49.png">
+                <div class="overlay"> <div class="text"> Used REACT/ Django / Python /Javascript and HTML/CSS to create a fighting game. Users
+                    can create an account and play as any fighter they choose. Users can defeat the monsters during battle using weapons from the game's shop.</div>
+                </div>
+            </div>
+        </a>
+        <br/>
+
+        <a href="https://github.com/cs-fullstack-2019-fall/frontend-halfday1-b-rjrobins16" target="_blank">
+            <div class="container">
+                <img class="image"  id="img1" src="Screenshot%20from%202019-09-19%2013-08-49.png">
+                <div class="overlay"> <div class="text"> Used JavaScript/CSS/HTML to create a mini game.</div>
+                </div>
+            </div>
+        </a>
+        <br/>
+        <a href="https://github.com/cs-fullstack-2019-fall/html-basics-weekly-5-rjrobins16" target="_blank">
+            <div class="container">
+                <img class="image" id="img2" src="Screenshot%20from%202019-09-19%2013-21-24.png" alt="">
+                <div class="overlay"> <div class="text"> Coded a webpage IDENTICAL to Google.com using HTML and CSS. </div>
+                </div>
+            </div>
+        </a>
+        <br/>
+        <a href="https://github.com/cs-fullstack-2019-fall/python-basics-weekly-3-rjrobins16" target="_blank">
+            <div class="container">
+                <img id="img3" class="image" src="Screenshot%20from%202019-09-19%2013-25-03.png">
+                <div class="overlay"> <div class="text"> Created a mock ATM application using Python. </div>
+                </div>
+            </div>
+        </a>
+        <br/>
+    </div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
