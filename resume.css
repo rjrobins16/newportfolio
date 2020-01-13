@@ -3,7 +3,10 @@ html,body{
     font-family: 'Work Sans', sans-serif;
     height: 100%;
 }
-
+a{
+    text-decoration: none;
+    color: #f4cbc6;
+}
 .sidebar{
     line-height: 8pt;
     font-family: 'Bebas Neue', cursive;
@@ -84,11 +87,11 @@ html,body{
     border-radius: 10px;
 }
 
-@media screen and (max-width: 740px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 40px;
-    }
-}
+/*@media screen and (max-width: 740px) {*/
+/*    .sidebar {padding-top: 15px;}*/
+/*    .sidebar a {font-size: 40px;*/
+/*    }*/
+/*}*/
 
 .resume{
     display: block;
@@ -114,4 +117,12 @@ html,body{
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding-bottom: 2%;
+}
+#linked.a{
+    color: white;
+
+}
+
+.lol.a{
+    text-decoration: none;
 }
